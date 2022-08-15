@@ -47,12 +47,13 @@ def plaka_konum_don(img):
             kon = False
             if (kon1 and (kon2 or kon3)):
                 # plakadır
-                cv2.drawContours(img, [box], 0, (0, 255, 0), 2)
+                #cv2.drawContours(img, [box], 0, (0, 255, 0), 2)
                 plaka = [int(i) for i in [minx, miny, w, h]]
                 kon = True
             else:
                 # plaka degildir
-                cv2.drawContours(img, [box], 0, (0, 0, 255), 2)
+                #cv2.drawContours(img, [box], 0, (0, 0, 255), 2)
+                kon=False
 
             if (kon):
                 return plaka

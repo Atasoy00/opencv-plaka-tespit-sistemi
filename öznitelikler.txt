@@ -1,44 +1,4 @@
 
-Plaka Öznitelikleri
-----------------------------------------------------------------------------------
-#dikdörtgen oranı
-
-w     h     oran
-
-77    17    4.52 
-
-184   46    4.04
-
-81    22    3.68
-...
-
-
-##Algoritma 
-------------------------------------------
-->Dikdörtgenleri tespit et
-->h,w oranı en az 3 olmalı
-->grayscale renk ortsı en az 150 olmalı
-->500,500 oranlı resimde hmax=50 wmax=150 olmalı
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #Plaka tanıma, kordinat bulma
 #----------------------------
