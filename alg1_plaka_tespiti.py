@@ -43,7 +43,7 @@ def plaka_konum_don(img):
             kon2 = h < 50 and w < 150
             kon3 = w < 50 and h < 150
 
-            print('muh_plaka medyan: {} genislik: {} yukseklik: {}'.format(muh_medyan, w, h))
+            #print('muh_plaka medyan: {} genislik: {} yukseklik: {}'.format(muh_medyan, w, h))
             kon = False
             if (kon1 and (kon2 or kon3)):
                 # plakadır
